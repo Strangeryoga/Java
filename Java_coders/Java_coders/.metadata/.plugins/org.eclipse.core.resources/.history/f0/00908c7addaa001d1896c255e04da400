@@ -1,0 +1,21 @@
+public class AS{
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		try {
+		int[] a=new int[-32];
+		}
+		catch (Exception n){
+			System.out.println("handled");
+			
+		}
+		finally {
+			System.out.println(a);
+		}
+
+		
+	}
+}

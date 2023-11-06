@@ -1,0 +1,31 @@
+
+
+public class AS {
+	public static int count(int n) {
+		int c=0;
+		while(n!=0) {
+		c++;
+		n=n/10;
+	}
+	return c;
+	}
+	
+	
+	public static void main(String[] args) {
+		int n=23421;
+		int temp=n;
+		int countOfDigits=count(n);
+		while(n!=0) {
+			int d=n%10;
+//			System.out.println(d);
+			if(d<countOfDigits) {
+				int s=d*countOfDigits;
+				System.out.println(s);
+			}
+			n=n/10;	
+		}
+		
+		
+	}
+
+}

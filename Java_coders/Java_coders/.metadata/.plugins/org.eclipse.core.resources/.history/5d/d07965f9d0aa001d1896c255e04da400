@@ -1,0 +1,19 @@
+
+
+public class AS {
+	public static void count(int n) {
+		int c=0;
+		c++;
+		n=n/10;
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		System.out.println();
+		count(3343);
+		
+	}
+
+}

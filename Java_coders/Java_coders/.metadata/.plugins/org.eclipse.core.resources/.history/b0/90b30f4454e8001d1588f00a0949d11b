@@ -1,0 +1,26 @@
+package tejas;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Scanner;
+
+
+public class Practice {
+	
+	
+	public static void main(String[] args) {
+		ArrayList ref=new ArrayList();
+		ref.add("hello");
+		ref.add(10);
+		ref.add("how");
+		ref.add("are");
+		ref.add("you");
+		
+		System.out.println(ref);
+		for(int i=0;i<ref.size();i++) {
+			System.out.println(ref);
+		}
+		
+	}
+}

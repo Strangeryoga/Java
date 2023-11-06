@@ -1,0 +1,21 @@
+CTP/ CT Binding/ Static Binding (Compile Time Polymorphism)
+Binding happens during compile time
+
+Note:
+Which method/variable to be called is decided by compiler during Compile time based on reference variable type no based on object creation.
+ 
+Examples of CTP
+-> Variable Shadowing
+-> Method Shadowing
+-> Method Overloading
+-> Constructor Overloading
+
+
+RTP/ RT Binding/ Dynamic Binding
+Binding happens during run time
+
+Note:
+Which method to be called is decided during Runtime based on object creation not based on reference variable type.
+
+Example of RTP
+-> Method Overriding

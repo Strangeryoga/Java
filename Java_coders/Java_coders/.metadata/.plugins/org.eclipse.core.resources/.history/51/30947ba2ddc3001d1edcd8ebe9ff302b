@@ -1,0 +1,27 @@
+package Generic;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class P3 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter the number: ");
+		int ac=sc.nextInt();
+		List a=new ArrayList();
+		
+		for(int i=0;i<100;i++) {
+			System.out.println("Enter the number");
+			a.add(sc.nextInt());
+			if(sc.nextInt()<0) {
+				System.out.println("Dont input");
+				break;
+			}
+			;
+			
+		}
+	}
+}

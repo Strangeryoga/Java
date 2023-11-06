@@ -1,0 +1,13 @@
+public class AS{
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		int[] a= new int[] {23,234,52,21};
+		for(int i=0; i<a.length; i++) {
+			System.out.println(a[i]);
+		}
+}
+}

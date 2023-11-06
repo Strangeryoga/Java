@@ -1,0 +1,188 @@
+package tejas;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Scanner;
+
+
+public class Practice {
+	
+	static class box{
+		int width;
+		int height;
+		int length;
+		
+	}
+	
+	static class recursion{
+		int func(int n) {
+			int result;
+			if(n==1)
+				return 1;
+			result=func(n-1);
+			return result;
+		}
+	}
+	
+	public static void binarySearch(int arr[], int first, int last, int key ){
+		int mid=(first+last)/2;
+		while(first<=last) {
+			if(arr[mid]<key) {
+				first=mid+1;
+				break;
+			}else if(arr[mid]==key) {
+				System.out.println("element is found at index"+mid);
+				break;
+			}else {
+				last=mid-1;
+				
+			}
+			mid=(first+last)/2;
+		}
+		if(first>last) {
+			System.out.println("element not found");
+		}
+		
+	
+	}
+		
+		
+		
+	@SuppressWarnings("removal")
+	public static void main(String[] args) {
+//		byte x=64;
+//		 int i;
+//		 byte y;
+//		 i=x<<2;
+//		 y=(byte)(x<<2);
+//		 System.out.println(i+""+y);
+		
+//		box obj=new box();
+//		obj.width=10;
+//		obj.height=2;
+//		obj.length=10;
+//		int y=obj.width*obj.height*obj.length;
+//		System.out.println(y);
+		
+//		int arr[]= {1,2,3,4,5};
+//		for(int i=0;i<arr.length-2;i++) {
+//			System.out.println(arr[i]);
+//		}
+		
+//		char chars[]= {'a','b','c'};
+//		String s=new String(chars);
+//		System.out.println(s);
+		
+//		recursion obj=new recursion();
+//		System.out.println(obj.func(5));
+		
+//		String c="Hello i love java";
+//		boolean var;
+//		var=c.startsWith("hello");
+//		System.out.println(var);
+		
+//		double x=2.0;
+//		double y=3.0;
+//		double z=Math.pow(x, y);
+//		System.out.println(z);
+		
+//		LinkedList<Integer> list=new LinkedList();
+//		list.add(new Integer(2));
+//		list.add(new Integer(8));
+//		list.add(new Integer(5));
+//		list.add(new Integer(1));
+//		Iterator i=list.iterator();
+//		Collections.sort(list);
+//		while(i.hasNext()) {
+//			System.out.println(i.next()+"");
+//		}
+		
+//		int rows,cols;
+//		int a[][]= {{4,5,6},{3,4,1},{1,2,3}};
+//		int b[][]= {{2,0,3},{2,3,1},{1,1,1}};
+//		
+//		rows=a.length;
+//		cols=a[0].length;
+//		int diff[][]=new int[rows][cols];
+//		for(int i=0;i<rows;i++) {
+//			for(int j=0;j<cols;j++) {
+//				diff[i][j]=a[i][j]-b[i][j];
+//				System.out.println(diff[i][j]+" ");
+//			}
+//		}
+//		
+//		System.out.println("After subtraction");
+//		for(int i=0;i<rows;i++) {
+//			for(int j=0;j<cols;j++) {
+//				System.out.print(diff[i][j]+" ");
+//			}
+//			System.out.println();
+//		}
+		//output
+//		3 
+//		1 
+//		1 
+//		0 
+//		0 
+//		1 
+//		2 
+//		After subtraction
+//		2 5 3 
+//		1 1 0 
+//		0 1 2 
+
+		
+		
+		
+		
+		
+//		int rows,cols,sumRow,sumCol;
+//		int a[][]= {
+//				{1,2,3},
+//				{4,5,6},
+//				{7,8,9}
+//		};
+//		rows=a.length;
+//		cols=a[0].length;
+//		
+//		for(int i=0;i<rows;i++) {
+//			sumRow=0;
+//			for(int j=0;j<cols;j++) {
+//				sumRow=sumRow+a[i][j];
+//			}
+//			System.out.println("sum of "+(i+1)+" row: "+sumRow);
+//		}
+//		
+//		for(int i=0;i<cols;i++) {
+//			sumCol=0;
+//			for(int j=0;j<rows;j++) {
+//				sumCol=sumCol+a[j][i];
+//				
+//			}
+//			System.out.println("sum of "+(i+1)+" column: "+sumCol);
+//		}
+		//output
+//		sum of 1 row: 6
+//		sum of 2 row: 15
+//		sum of 3 row: 24
+//		sum of 1 column: 12
+//		sum of 2 column: 15
+//		sum of 3 column: 18
+		
+		
+		int arr[]= {10,20,30,40,50};
+		int key=10;
+		int last=arr.length-1;
+		binarySearch(arr,0,last,key);
+		
+		}
+		
+		
+
+		
+		
+	}

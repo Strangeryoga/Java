@@ -1,0 +1,11 @@
+public class AS{
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		int[] a= {243,243,43,90};
+		System.out.println(a);
+}
+}

@@ -1,0 +1,33 @@
+class Atm{
+
+private double money=1400; //states
+
+public double getMoney(){
+return money;
+}
+
+public void setMoney(double money){
+this.money=money;
+}
+
+
+public void withDraw(){
+System.out.println("u withdraw the cash");
+}
+
+
+}
+
+class SBIBank1{
+
+public static void main(String [] args){
+Atm a=new Atm();
+
+System.out.println("Total amout: "+a.getMoney());
+System.out.println("After change the amount is "+a.setMoney(2000));
+
+}
+
+
+
+}

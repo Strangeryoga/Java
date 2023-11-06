@@ -1,0 +1,30 @@
+
+
+public class AS {
+	public static int count(int n) {
+		int c=0;
+		while(n!=0) {
+			c++;
+			n=n/10;
+		}
+		return c;
+		
+	}
+
+	
+	
+	
+	public static void main(String[] args) {
+		int n=231;
+		int len=count(n);
+		while(n!=0) {
+			int d=n%10;
+			System.out.println(d);
+			n=n/10;
+			
+		}
+		
+	}
+
+
+}

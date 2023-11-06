@@ -1,0 +1,24 @@
+class Atm{
+
+double money=1000;
+public void withDraw(){
+
+System.out.println("u withdraw the cash");
+
+}
+
+}
+
+class SBIBank{
+
+public static void main(String [],args){
+
+Atm m=new Atm();
+System.out.println("Total amount: "+m.money);
+m.withDraw();
+
+}
+
+
+
+}

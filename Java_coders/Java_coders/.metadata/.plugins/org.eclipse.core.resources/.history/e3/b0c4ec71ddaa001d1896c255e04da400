@@ -1,0 +1,12 @@
+public class AS{
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		int[] a=new int[-32];
+		System.out.println(a);
+		
+	}
+}

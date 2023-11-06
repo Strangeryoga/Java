@@ -1,0 +1,43 @@
+
+
+public class AS {
+	public static int count(int n) {
+		int c=0;
+		while(n!=0) {
+		c++;
+		n=n/10;
+	}
+	return c;
+	}
+	
+	
+	public static void main(String[] args) {
+		for(int m=1;m<1000;m++) {
+			
+		
+		int n=m;
+		int temp=n;
+		int countOfDigits=count(n);
+		int arm=0;
+		while(n!=0) {
+			int mul=1;
+
+			int d=n%10;
+//			System.out.println(d);
+			for(int i=1;i<=countOfDigits;i++) {
+				mul=mul*d;
+				
+			}
+			arm=arm+mul;
+			n=n/10;
+		}
+		if(arm==temp) {
+			System.out.println(m+" is armstrong");
+		}else {
+			System.out.println(m+" is not armstrong");
+		}
+		
+	}
+
+}
+}

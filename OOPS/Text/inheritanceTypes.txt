@@ -1,0 +1,97 @@
+--> Single Level Inheritance
+
+class P1{
+
+}
+class P2 extends P1{
+
+}
+class Driver{
+
+}
+
+
+--> Multi Level Inheritance
+
+class P1{
+
+}
+class P2 extends P1{
+
+}
+class P3 extends P2{
+
+}
+class Driver{
+
+}
+
+
+--> Hierarchical Inheritance
+
+class P1{
+
+}
+class P2 extends P1{
+
+}
+class P3 extends P1{
+
+}
+class Driver{
+
+}
+
+
+--> Multiple Inheritance
+
+class P1{
+
+}
+class P2{
+
+}
+class P3 extends P1,P2{
+
+}
+class Driver{
+
+}
+//Diamond Problem
+
+
+--> Hybrid Inheritance
+
+class P1{
+
+}
+class P2 extends P1{
+
+}
+class P3 extends P1{
+
+}
+class P4 extends P2,P3{
+
+}
+//Diamond Problem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

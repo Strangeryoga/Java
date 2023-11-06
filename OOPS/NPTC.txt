@@ -1,0 +1,26 @@
+class Fruit{
+
+int i=23;
+
+
+
+}
+
+class Mango extends Fruit{
+
+int j=50;
+
+}
+
+class NPTC{
+public static void main(String [] args){
+
+Mango m=new Mango();
+System.out.println(m.i);
+System.out.println(m.j);
+
+
+}
+
+
+}

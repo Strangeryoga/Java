@@ -1,0 +1,29 @@
+package tejas;
+
+import java.util.Arrays;
+
+public class Solution {
+
+public boolean isPalindrome(String s) {
+	String reverseStr="";
+
+	int sLength=s.length();
+	for(int i=(sLength-1);i>=0;i--) {
+		reverseStr=reverseStr+s.charAt(i);
+	}
+	
+	if(s.toLowerCase().equals(reverseStr.toLowerCase())) {
+		return true;
+	}
+	
+	return true;
+    }
+
+public static void main(String[] args) {
+	String s="A man, a plan, a canal: Panama";
+	Solution ref=new Solution();
+	System.out.println(	ref.isPalindrome(s));
+}
+}
+
+		

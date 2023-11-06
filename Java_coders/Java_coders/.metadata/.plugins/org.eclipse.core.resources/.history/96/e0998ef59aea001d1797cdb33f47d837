@@ -1,0 +1,46 @@
+package tejas;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Scanner;
+
+
+public class Practice {
+	
+	static class box{
+		int width;
+		int height;
+		int length;
+		
+	}
+	
+	public static void main(String[] args) {
+//		byte x=64;
+//		 int i;
+//		 byte y;
+//		 i=x<<2;
+//		 y=(byte)(x<<2);
+//		 System.out.println(i+""+y);
+		
+//		box obj=new box();
+//		obj.width=10;
+//		obj.height=2;
+//		obj.length=10;
+//		int y=obj.width*obj.height*obj.length;
+//		System.out.println(y);
+		
+//		int arr[]= {1,2,3,4,5};
+//		for(int i=0;i<arr.length-2;i++) {
+//			System.out.println(arr[i]);
+//		}
+		
+		char chars[]= {'a','b','c'};
+		String s=new String(chars);
+		System.out.println(s);
+		
+		
+		
+		
+	}
+}

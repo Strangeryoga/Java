@@ -1,0 +1,29 @@
+package Generic;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class P3 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		List<Integer> a=new ArrayList<>();
+		boolean b=true;
+		while(b) {
+			System.out.println("Enter the number");
+
+			int n=sc.nextInt();
+			if(n!=-1) {
+				a.add(n);
+			}else {
+				b=false;
+			}
+		}
+		System.out.println(a);
+			
+			
+		}
+	}
+

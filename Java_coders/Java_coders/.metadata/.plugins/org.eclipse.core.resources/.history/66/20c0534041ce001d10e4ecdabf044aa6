@@ -1,0 +1,26 @@
+package tejas;
+
+import java.util.Arrays;
+
+public class Solution {
+public int[] plusOne(int[] digits) {
+	
+	for(int i=0;i<digits.length;i++ ) {
+		for(int j=i+1;j<digits.length;j++) {
+			if(j==digits.length-1) {
+				digits[j]++;
+				System.out.println(Arrays.toString(digits));
+			}
+		}
+	}
+	return digits;    
+    }
+public static void main(String[] args) {
+	int digits[]= {1,2,3};
+	Solution ref=new Solution();
+	ref.plusOne(digits);
+}
+
+}
+
+		
