@@ -1,0 +1,49 @@
+String is a group, collection or sequence of characters but in java string is a final class which is present inside java.lang package.
+String class extends object class and implements CharSequence, Comparable and Serializable interfaces.
+
+1. CharSequence
+This interface is used to maintain the sequence of characters
+
+2. Comparable
+This interface is used to compare the object of same class with an instance of the class.
+instance -----> object
+It provides a method which is used to compare the object known as compareTo().
+O1 > O2 ===> +ve
+O1 < O2 ===> -ve
+O1 == O2 ==> 0
+
+3. Serializable
+It is marker interface.
+This interface is used to maintain steps of the data.
+Marker interface means the interface which has no data members.
+
+
+String Literals:
+Syntax: String var.name="Literals";
+When we create a string object using string literals the object will be created inside SCP(String Constant Pool).
+The JVM first checks SCP whether object with the same content is already created or not.
+If created it returns the reference of the existing object.
+                                           ---------------
+If not created then the object with the content is created in the SCP.
+
+
+
+
+
+length()
+return type of length() is int
+This method is used to return the number of characters present in the string.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
